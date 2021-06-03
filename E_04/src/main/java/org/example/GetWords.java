@@ -8,6 +8,7 @@ public class GetWords {
     public String Verb;
     public String Adverb;
     private Scanner reader = new Scanner(System.in);
+
     public void setWords(){
         System.out.print("Enter a Adjective: ");
         this.Adjective = reader.nextLine();
